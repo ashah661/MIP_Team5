@@ -19,9 +19,10 @@ The AS_IDRiD_v2 (for IDRiD dataset) or SP_EyePACS_v2 script (for EyePACS dataset
 7.	Saving checkpoints for the best and last model based on lowest validation loss
 8.	Testing the model on the test dataloader to calculate its performance using the metrics defined – F1 score, Cohen’s Kappa, and Accuracy
 9.	Generating the plot for training and validation loss over the number of epochs the model was trained. 
+
 Files generated after running the script:
-•	training_loss.txt
-•	validation_loss.txt
-•	<dataset>_best_<technique>.pt
-•	<dataset>_last_<technique>.pt
-•	<technique>_trainLossValLoss.png
+  •	training_loss.txt
+  •	validation_loss.txt
+  •	<dataset>_best_<technique>.pt
+  •	<dataset>_last_<technique>.pt
+  •	<technique>_trainLossValLoss.png
