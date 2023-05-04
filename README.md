@@ -23,6 +23,6 @@ The AS_IDRiD_v2 (for IDRiD dataset) or SP_EyePACS_v2 script (for EyePACS dataset
 Files generated after running the script:
   •	training_loss.txt
   •	validation_loss.txt
-  •	(dataset>)best_(technique).pt
+  •	(dataset)_best_(technique).pt
   •	(dataset)_last_(technique).pt
   •	(technique)_trainLossValLoss.png
